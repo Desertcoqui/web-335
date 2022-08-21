@@ -1,0 +1,25 @@
+{
+  "Customer": {
+    "_id": 10,
+    "firstName": "Slim",
+    "lastName": "Skinny",
+    "dateOfBirth": "11/20/1990",
+    "userName": "Kilo",
+    "invoice": [
+      {
+        "_id": 10,
+        "createDate": "08/21/2022",
+        "shipDate": "08/22/2022",
+        "subTotal": "100.00"
+      }
+    ],
+    "lineItem": [
+      {
+        "_id": 10,
+        "productName": "pens",
+        "price": "1.00",
+        "quantity": "100"
+      }
+    ]
+  }
+}
