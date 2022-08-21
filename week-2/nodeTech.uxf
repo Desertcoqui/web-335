@@ -1,1 +1,38 @@
-<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level></diagram>
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>20</x><y>0</y><w>210</w><h>140</h></coordinates><panel_attributes>Student
+
+--
+_studentId: 10
+--
+firstName: Lance
+--
+lastName: Strong
+--
+dateOfBirth: 11/20/1990
+--
+userName: Kilo10</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>110</x><y>130</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>110</x><y>210</y><w>100</w><h>110</h></coordinates><panel_attributes>lt=&lt;-
+One to many
+m1=</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>310</y><w>210</w><h>110</h></coordinates><panel_attributes>Enrollment
+--
+_term: 1
+--
+gpa: 3.5
+--
+startDate: 10/11/2001
+--
+endDatel: 10/11/2002
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>510</y><w>210</w><h>130</h></coordinates><panel_attributes>Course
+--
+courseId: 11
+--
+description: math
+--
+instructor: Krasso
+--
+score: 100.00
+--
+letterGrade: A
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>110</x><y>400</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>110</x><y>420</y><w>100</w><h>110</h></coordinates><panel_attributes>lt=&lt;-
+One to many
+m1=</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>140</x><y>280</y><w>100</w><h>70</h></coordinates><panel_attributes>*</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>140</x><y>140</y><w>100</w><h>70</h></coordinates><panel_attributes>1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>130</x><y>420</y><w>100</w><h>70</h></coordinates><panel_attributes>1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>130</x><y>490</y><w>100</w><h>70</h></coordinates><panel_attributes>*</panel_attributes><additional_attributes></additional_attributes></element></diagram>
