@@ -10,15 +10,21 @@
         "_id": 10,
         "createDate": "08/21/2022",
         "shipDate": "08/22/2022",
-        "subTotal": "100.00"
-      }
-    ],
-    "lineItem": [
-      {
-        "_id": 10,
-        "productName": "pens",
-        "price": "1.00",
-        "quantity": "100"
+        "subTotal": "100.00",
+        "lineItem": [
+          {
+            "_id": 10,
+            "productName": "pens",
+            "price": "1.00",
+            "quantity": "100"
+          },
+          {
+            "_id": 10,
+            "productName": "pencils",
+            "price": "1.00",
+            "quantity": "100"
+          }
+        ]
       }
     ]
   }
