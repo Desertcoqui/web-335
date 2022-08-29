@@ -1,0 +1,21 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>20</x><y>90</y><w>210</w><h>90</h></coordinates><panel_attributes>PUBLISHER
+--
+publisher_code
+publisher_name
+publisher_address
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>90</y><w>210</w><h>90</h></coordinates><panel_attributes>BOOK
+--
+_book_isbn
+_book_name
+_book_price
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>370</y><w>210</w><h>110</h></coordinates><panel_attributes>AUTHOR
+--
+_iD
+_author_first_name
+_author_last_name
+_author_phone
+_author_email</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>140</y><w>140</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>120;10;10;10</additional_attributes></element><element><id>UMLNote</id><coordinates><x>240</x><y>160</y><w>70</w><h>30</h></coordinates><panel_attributes>1 to many</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>180</y><w>60</w><h>200</h></coordinates><panel_attributes>lt=-
+m1=Many
+m2=Many
+to </panel_attributes><additional_attributes>10;10;10;180</additional_attributes></element></diagram>

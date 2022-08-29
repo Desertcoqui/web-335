@@ -1,0 +1,46 @@
+{
+  "user": {
+    "_id": "5",
+    "first_name": "Joice",
+    "last_name": "Juice",
+
+    "role": [
+      {
+        "_id": "25",
+        "roleName": "TrackStar",
+        "permission": [
+          {
+            "_id": "1",
+            "permissionGranted": "run"
+          },
+          {
+            "_id": "2",
+            "_permissionGranted": "jump"
+          },
+          {
+            "_id": "3",
+            "_permissionGranted": "cheat"
+          }
+        ]
+      },
+      {
+        "_id": "26",
+        "roleName": "Manager",
+        "permission": [
+          {
+            "_id": "24",
+            "_permissionGranted": "fire"
+          },
+          {
+            "_id": "25",
+            "permissionGranted": "hire"
+          },
+          {
+            "_id": "3",
+            "_permissionGranted": "cheat"
+          }
+        ]
+      }
+    ]
+  }
+}

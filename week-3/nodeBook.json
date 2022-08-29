@@ -1,0 +1,23 @@
+{
+  "publisher": {
+    "publisher_code": "23232323232",
+    "publisher_name": "YourCrazy",
+    "publisher_address": "1231 Some where in the distant future",
+    "book": [
+      {
+        "book_isbn": "444-1-58345-327-9",
+        "book_name": "Rock in my boots",
+        "book_price": "10.00",
+        "author": [
+          {
+            "_id": "1003",
+            "author_first_name": "Boot",
+            "author_last_name": "Michaels",
+            "author_phone": "956.555.5543",
+            "author_email": "boot.michaels@gmail.com"
+          }
+        ]
+      }
+    ]
+  }
+}
