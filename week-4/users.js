@@ -77,6 +77,7 @@ zach = {
   email: "zach@me.com",
   dateCreated: new Date(),
 };
+db.users.insertOne(zach);
 /**
  * Insert the newly created user documents.
  */
