@@ -5,6 +5,10 @@
     Description: MongoDB Shell Scripts for the users collection.
  */
 
+// Use bottom string in CLI to connect to mongosh
+
+// mongosh "mongodb+srv://web335db.ljzn1ss.mongodb.net/web335DB" --apiVersion 1 --username web335_user
+
 /**
  * User document clean-up.
  */
@@ -66,6 +70,13 @@ debussy = {
   dateCreated: new Date(),
 };
 
+zach = {
+  firstName: "Zach",
+  lastName: "Morris",
+  employeeId: "1013",
+  email: "zach@me.com",
+  dateCreated: new Date(),
+};
 /**
  * Insert the newly created user documents.
  */
@@ -75,3 +86,6 @@ db.users.insertOne(mozart);
 db.users.insertOne(brahms);
 db.users.insertOne(wagner);
 db.users.insertOne(debussy);
+db.users.insertOne(zach);
+
+db.users.find();
