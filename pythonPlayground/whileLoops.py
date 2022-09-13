@@ -1,9 +1,8 @@
 
-# only prints to #51 ..Line 13 passes the variable to line 10,
-# line 11 evaluates a true statement and prints
-# Line 7 subtracts 51- 1 to give iterations a reassigned value of 50
-# but line 8 does not print the variable,
-# instead it calls the print() method from line 4.
+# Two programs separated by comments
+
+
+# Program 1 prints to 51
 
 
 iterations = 67
@@ -14,8 +13,8 @@ while iterations > 50:
 print()
 
 
-# prints to 50 because the variable is calling to
-# line 16 after it subtracts 1
+# Program 2 program to 50
+
 iterations_two = 67
 while iterations_two > 50:
     print(iterations_two)
