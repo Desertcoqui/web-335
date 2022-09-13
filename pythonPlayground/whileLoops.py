@@ -1,9 +1,11 @@
 
-# only prints to #51 ..Line 7 passes the variable to line 4,
-# line 5 evaluates a true statement and prints out 51 on line 6.
+# only prints to #51 ..Line 13 passes the variable to line 10,
+# line 11 evaluates a true statement and prints
 # Line 7 subtracts 51- 1 to give iterations a reassigned value of 50
 # but line 8 does not print the variable,
 # instead it calls the print() method from line 4.
+
+
 iterations = 67
 print(iterations)
 while iterations > 50:
