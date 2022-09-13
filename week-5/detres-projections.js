@@ -3,6 +3,11 @@
     Author: Professor Krasso
     Date: 11 Sept 2022
     Description: MongoDB Shell Scripts for the users collection.
+https://www.strongdm.com/blog/mongodb-create-user#:~:text=Use%20the%20db.,document%20into%20a%20NoSQL%20database!&text=In%20the%20example%20above%2C%20after,database%20to%20execute%20our%20db.
+
+https://www.mongodb.com/docs/manual/aggregation/
+
+    
  */
 
 // Use bottom string in CLI to connect to mongosh
