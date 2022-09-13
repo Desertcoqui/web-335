@@ -2,21 +2,19 @@
 # Two programs separated by comments
 
 
-# Program 1 prints to 51
+# Program 1 prints to 51 and 50
 
 
 iterations = 67
-print(iterations)
+
 while iterations > 50:
+
     print(iterations)
     iterations = iterations - 1
+
+    # this last print statement does not carry the variable iterations
+    # its simply calling the last print method on line 12
 print()
 
-
-# Program 2 program to 50
-
-iterations_two = 67
-while iterations_two > 50:
-    print(iterations_two)
-    iterations_two = iterations_two - 1
-print(iterations_two)
+# this print statement holds the variable to prints out to 50
+print(iterations)
