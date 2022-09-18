@@ -3,6 +3,8 @@
     Author: Professor Krasso
     Date: 11 August 2022
     Description: MongoDB Shell Scripts for the houses and students collections.
+    https://www.mongodb.com/docs/manual/reference/operator/aggregation/lookup/
+
  */
 
 // Use bottom string in CLI to connect to mongosh
