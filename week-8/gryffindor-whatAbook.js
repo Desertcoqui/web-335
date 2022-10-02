@@ -27,26 +27,24 @@ db.createCollection("customers", {
         customerId: {
           bsonType: "string",
         },
-        wishlistItems: [
-          {
-            books: [
-              {
-                title: {
-                  bsonType: "string",
-                },
-                genre: {
-                  bsonType: "string",
-                },
-                author: {
-                  bsonType: "string",
-                },
-                bookId: {
-                  bsonType: "string",
-                },
+        wishlistItems: {
+          books: [
+            {
+              title: {
+                bsonType: "string",
               },
-            ],
-          },
-        ],
+              genre: {
+                bsonType: "string",
+              },
+              author: {
+                bsonType: "string",
+              },
+              bookId: {
+                bsonType: "string",
+              },
+            },
+          ],
+        },
       },
     },
   },
@@ -214,3 +212,6 @@ db.books.aggregate([{ $sort: { genre: 1 } }]);
 
 //display books by author
 db.books.aggregate([{ $sort: { author: 1 } }]);
+
+//display books by bookId
+db.books.aggregate([{ $sort: { bookId: 1 } }]);
