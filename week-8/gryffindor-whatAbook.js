@@ -75,7 +75,7 @@ db.createCollection("books", {
 //create customers with wishlist
 johnMacro = {
   firstName: "John",
-  lastName: "Macro",
+  lastName: "Macrot",
   customerId: "01",
   wishlistItems: [
     {
